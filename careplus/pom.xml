@@ -29,6 +29,11 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
+				<artifactId>spring-context-support</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
 				<artifactId>spring-web</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
@@ -83,6 +88,16 @@
 				<artifactId>logback-classic</artifactId>
 				<version>${logback-classic.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.apache.velocity</groupId>
+				<artifactId>velocity</artifactId>
+				<version>${velocity.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-collections</groupId>
+				<artifactId>commons-collections</artifactId>
+				<version>${commons-collections.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<properties>
@@ -90,6 +105,8 @@
 		<spring.security.version>3.1.4.RELEASE</spring.security.version>
 		<servlet-api.version>3.0-alpha-1</servlet-api.version>
 		<logback-classic.version>1.0.12</logback-classic.version>
+		<velocity.version>1.6.4</velocity.version>
+		<commons-collections.version>3.2.1</commons-collections.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 </project>
