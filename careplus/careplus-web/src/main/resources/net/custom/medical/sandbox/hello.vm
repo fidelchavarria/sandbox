@@ -3,5 +3,7 @@
   <body>
     <h1>Hello - Spring Application</h1>
     <p>#springMessage('message')</p>
+    <p>go to <a href="?lang=en" >#springMessage('message')</a></p>
+    <p>go to <a href="?lang=es" >#springMessage('message')</a></p>
   </body>
 </html>

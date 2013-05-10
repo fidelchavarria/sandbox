@@ -15,7 +15,7 @@ public class Index {
 	private static Logger logger = LoggerFactory
 	.getLogger(Index.class);
 	
-	 @RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	public String validate() {
 		 logger.info("Returning index Page Path: ", Utils.buildPath(this.getClass()));
 		 return Utils.buildPath(this.getClass());
