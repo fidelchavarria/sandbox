@@ -1,4 +1,4 @@
-package net.custom.medical.sandbox.utils;
+package net.custom.medical.utils;
 
 import org.apache.commons.lang.StringUtils;
 

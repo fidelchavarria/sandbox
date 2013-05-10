@@ -1,6 +1,6 @@
-package net.custom.medical.sandbox;
+package net.custom.medical.pages;
 
-import net.custom.medical.sandbox.utils.Utils;
+import net.custom.medical.utils.Utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
