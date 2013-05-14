@@ -6,9 +6,7 @@
 		<groupId>net.syslogics.medical</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>net.syslogics.medical</groupId>
 	<artifactId>careplus-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
 		<plugins>
