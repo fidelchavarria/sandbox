@@ -2,7 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:addStatesFromChildren="false"
+    android:animateLayoutChanges="false"
+    android:clickable="true"
+    android:clipChildren="true"
+    android:clipToPadding="false"
+    android:duplicateParentState="false"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:longClickable="false"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:splitMotionEvents="false" >
 
     <EditText
         android:id="@+id/URL"
@@ -10,16 +22,18 @@
         android:layout_height="wrap_content"
         android:text="www.google.com" />
 
-    <WebView
-        android:id="@+id/WebEngine"
-        android:layout_width="fill_parent"
-        android:layout_height="361dp" />
-
     <Button
         android:id="@+id/Go"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1.64"
         android:text="Go" />
+
+    <WebView
+        android:id="@+id/WebEngine"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:clipChildren="true"
+        android:clipToPadding="true" />
 
 </LinearLayout>
