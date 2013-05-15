@@ -22,11 +22,34 @@
         android:layout_height="wrap_content"
         android:text="www.google.com" />
 
-    <Button
-        android:id="@+id/Go"
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go" />
+        android:longClickable="false"
+        android:orientation="horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/Go"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10.54"
+            android:text="Go" />
+
+        <Button
+            android:id="@+id/Forward"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Foward" />
+    </LinearLayout>
 
     <WebView
         android:id="@+id/WebEngine"
