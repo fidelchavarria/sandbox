@@ -11,7 +11,13 @@
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<context:component-scan base-package="net.custom.medical.pages" />
-
+	<mvc:annotation-driven />
+	
+	<mvc:view-controller path="/" view-name="index.html" />
+	
+	<mvc:resources mapping="css/**" location="/css/" />
+	<mvc:resources mapping="images/**" location="/images/" />
+	
 	<bean id="velocityConfig"
 		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
 		<property name="velocityProperties">

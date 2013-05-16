@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/index.html")
-public class Index {
+@RequestMapping("/login.html")
+public class Login {
 
 	private static Logger logger = LoggerFactory
-	.getLogger(Index.class);
+	.getLogger(Login.class);
+	
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public String validate() {
