@@ -13,7 +13,7 @@
 	<context:component-scan base-package="net.custom.medical.pages" />
 	<mvc:annotation-driven />
 	
-	<mvc:view-controller path="/" view-name="index.html" />
+	<mvc:view-controller path="/index.html" view-name="/" />
 	
 	<mvc:resources mapping="css/**" location="/css/" />
 	<mvc:resources mapping="images/**" location="/images/" />

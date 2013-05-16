@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/index.html")
+@RequestMapping("/")
 public class Index {
 
 	private static Logger logger = LoggerFactory
